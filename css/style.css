@@ -68,3 +68,9 @@ body{
     border-radius: 1.5rem;
     border-color: #57C5B6;
 }
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
