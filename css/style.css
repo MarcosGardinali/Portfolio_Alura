@@ -69,9 +69,15 @@ body{
     border-color: #57C5B6;
 }
 
+.foto{
+    border: 0.1rem solid #95BDFF;
+    border-radius: 1.2rem;
+    box-shadow: 1rem #7DB9B6;
+}
+
 .rodape{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 2.5rem;
+    padding: 1rem;
 }
