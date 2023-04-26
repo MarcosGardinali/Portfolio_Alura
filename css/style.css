@@ -31,22 +31,29 @@ body{
 }
 
 .apresentacao_conteudo_texto{
-    font-size: 24px;
+    font-size: 1.4rem;
     font-family: 'Bebas Neue', cursive;
 }
 
 .apresentacao_links{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
     justify-content: space-between;
 }
 
+.apresentacao_links_subtitulo{
+    font-family: 'Krona One', sans-serif;
+    font-size: 1.2rem;
+}
+
 .apresentacao_botao{
-    background-color: #2F0F5D;
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: #0EA293;
-    width: 280px;
+    width: 23rem;
     text-align: center;
-    border-radius: 1.1rem;
+    border: 0.1rem solid #2F0F5D 1.1rem;
     padding: 1.5rem 0;
     font-family: 'Bebas Neue', cursive;
 }
