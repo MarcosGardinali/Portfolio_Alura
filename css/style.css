@@ -72,7 +72,7 @@ body{
 .foto{
     border: 0.1rem solid #95BDFF;
     border-radius: 1.2rem;
-    box-shadow: 1rem #7DB9B6;
+    box-shadow: 5px 3px 8px #7DB9B6
 }
 
 .rodape{
