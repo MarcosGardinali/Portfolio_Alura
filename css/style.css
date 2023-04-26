@@ -74,3 +74,8 @@ body{
     flex-direction: row;
     justify-content: center;
 }
+
+.unicode_rodape{
+    display: flex;
+    justify-content: center;
+}
