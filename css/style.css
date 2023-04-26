@@ -60,6 +60,7 @@ body{
     border-radius: 1.1rem;
     padding: 1.5rem 0;
     font-family: 'Bebas Neue', cursive;
+    transition: 1.2s all;
 }
 
 .apresentacao_botao:hover{
