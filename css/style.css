@@ -101,7 +101,7 @@ body{
 
 .foto{
     border: 0.1rem solid var(--terceira_cor);
-    border-radius: 1.2rem;
+    border-radius: 14rem;
     box-shadow: 5px 3px 8px var(--quarta_cor);
 }
 
