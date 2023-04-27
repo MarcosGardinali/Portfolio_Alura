@@ -8,7 +8,7 @@
 
 .cabecalho{
     padding: 2% 0% 0% 15%;
-    background-color: #13005A;
+    background-image: linear-gradient(#13005A, black);
 }
 
 .cabecalho_menu{
