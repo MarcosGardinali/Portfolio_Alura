@@ -30,11 +30,11 @@ body{
     font-family: var(--font_secundaria);
     font-size: 1.5rem;
     color: var(--terceira_cor);
+    transition: 1s all;
 }
 
 .cabecalho_menu_link:hover{
     color: var(--quarta_cor);
-    font-size: 1.6rem;
 }
 
 .apresentacao{
