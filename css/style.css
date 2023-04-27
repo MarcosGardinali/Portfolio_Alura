@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
-  body{
+:root{
+    --primeira_cor: #2C3333;
+    --segunda_cor: #395B64;
+    --terceira_cor: #A5C9CA;
+    --quarta_cor: #E7F6F2;
+}
+
+body{
     box-sizing: border-box;
-    background-color: black;
-    color: aqua;
+    background-color: var(--primeira_cor);
+    color: var(--quarta_cor);
 }
 
 .cabecalho{
     padding: 2% 0% 0% 15%;
-    background-image: linear-gradient(#13005A, black);
+    background-image: linear-gradient(var(--segunda_cor), var(--primeira_cor));
 }
 
 .cabecalho_menu{
@@ -19,7 +26,7 @@
 .cabecalho_menu_link{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
-    color: aqua;
+    color: var(--terceira_cor);
 }
 
 .apresentacao{
@@ -42,7 +49,7 @@
 }
 
 .titulo_destaque{
-    color: #CCD5AE;
+    color: var(--terceira_cor);
 }
 
 .apresentacao_conteudo_texto{
@@ -68,10 +75,10 @@
     justify-content: center;
     gap: 1rem;
     font-size: 1.2rem;
-    color: #0EA293;
+    color: var(--terceira_cor);
     width: 23rem;
     text-align: center;
-    border: 0.1rem solid #2F0F5D;
+    border: 0.1rem solid var(--segunda_cor);
     border-radius: 1.1rem;
     padding: 1.5rem 0;
     font-family: 'Montserrat', sans-serif;
@@ -79,15 +86,15 @@
 }
 
 .apresentacao_botao:hover{
-    background-color: #2D2727;
+    background-color: var(--segunda_cor);
     border-radius: 1.5rem;
-    border-color: #57C5B6;
+    border-color: var(--primeira_cor);
 }
 
 .foto{
-    border: 0.1rem solid #95BDFF;
+    border: 0.1rem solid var(--terceira_cor);
     border-radius: 1.2rem;
-    box-shadow: 5px 3px 8px #7DB9B6
+    box-shadow: 5px 3px 8px var(--quarta_cor);
 }
 
 .rodape{
