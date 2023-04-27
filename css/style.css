@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
 :root{
-    --primeira_cor: #181818;
-    --segunda_cor: #395B64;
-    --terceira_cor: #A5C9CA;
-    --quarta_cor: #E7F6F2;
+    --primeira_cor: #2C3639;
+    --segunda_cor: #3F4E4F;
+    --terceira_cor: #A27B5C;
+    --quarta_cor: #DCD7C9;
+    
+    --font_krona: 'Krona One', sans-serif;
+    --font_montserrat: 'Montserrat', sans-serif;
 }
 
 body{
@@ -15,7 +18,7 @@ body{
 
 .cabecalho{
     padding: 2% 0% 0% 15%;
-    background-image: linear-gradient(var(--segunda_cor), var(--primeira_cor));
+    background-color: var(--primeira_cor);
 }
 
 .cabecalho_menu{
@@ -24,7 +27,7 @@ body{
 }
 
 .cabecalho_menu_link{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font_montserrat);
     font-size: 1.5rem;
     color: var(--terceira_cor);
 }
@@ -40,12 +43,12 @@ body{
     width: 38rem;
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 2rem;
 }
 
 .titulo{
     font-size: 1.6rem;
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--font_krona);
 }
 
 .titulo_destaque{
@@ -54,19 +57,19 @@ body{
 
 .apresentacao_conteudo_texto{
     font-size: 1.3rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font_montserrat);
 }
 
 .apresentacao_links{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 1.25rem;
     justify-content: space-between;
 }
 
 .apresentacao_links_subtitulo{
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--font_krona);
     font-size: 1.2rem;
 }
 
@@ -80,8 +83,8 @@ body{
     text-align: center;
     border: 0.1rem solid var(--segunda_cor);
     border-radius: 1.1rem;
-    padding: 1.5rem 0;
-    font-family: 'Montserrat', sans-serif;
+    padding: 1.2rem 0;
+    font-family: var(--font_montserrat);
     transition: 0.8s all;
 }
 
@@ -102,5 +105,5 @@ body{
     flex-direction: row;
     justify-content: center;
     padding: 1rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font_montserrat);
 }
