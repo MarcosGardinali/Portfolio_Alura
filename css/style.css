@@ -113,3 +113,17 @@ body{
     padding: 1rem;
     font-family: var(--font_secundaria);
 }
+
+/*Os webkits são os motores que renderizam as páginas no chrome e no safari, estão sendo manipulados abaixo para personalização da barra de scroll*/
+::-webkit-scrollbar-thumb{
+    border-radius: 1.5rem;
+    background: var(--terceira_cor);
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: var(--segunda_cor);
+}
+
+::-webkit-scrollbar{
+    width: 0.4rem;
+}
